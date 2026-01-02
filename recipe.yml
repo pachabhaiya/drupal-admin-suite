@@ -3,6 +3,11 @@ description: "Drupal recipe to install the Gin admin theme and configure it as t
 type: 'Site'
 
 install:
+  - contextual
+  - file
+  - layout_builder
+  - layout_discovery
+  - claro
   - gin
   - gin_toolbar
   - navigation
@@ -13,12 +18,13 @@ config:
   import:
     gin:
       - block.block.gin_breadcrumbs
-      - block.block.gin_page_title
-      - block.block.gin_content
-      - block.block.gin_primary_local_tasks
-      - block.block.gin_local_actions
       - block.block.gin_secondary_local_tasks
+      - block.block.gin_content
+      - block.block.gin_local_actions
+      - block.block.gin_local_tasks
       - block.block.gin_messages
+      - block.block.gin_page_title
+      - block.block.gin_primary_local_tasks
       - gin.settings
   actions:
     system.theme:
