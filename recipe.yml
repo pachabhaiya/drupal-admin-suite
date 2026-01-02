@@ -1,3 +1,25 @@
 name: 'Admin Experience'
 description: "Drupal recipe to install the Gin admin theme and configure it as the site's admin theme."
 type: 'Site'
+
+install:
+  - gin
+  - gin_toolbar
+  - navigation
+  - navigation_extra_tools
+
+config:
+  import:
+    gin:
+      - block.block.gin_breadcrumbs
+      - block.block.gin_page_title
+      - block.block.gin_content
+      - block.block.gin_primary_local_tasks
+      - block.block.gin_local_actions
+      - block.block.gin_secondary_local_tasks
+      - block.block.gin_messages
+      - gin.settings
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        admin: gin

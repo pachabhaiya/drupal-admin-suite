@@ -4,6 +4,7 @@
     "type": "drupal-recipe",
     "license": "ISC",
     "require": {
-        "drupal/gin": "^5.0"
+        "drupal/gin": "^5.0",
+        "drupal/navigation_extra_tools": "^1.3"
     }
 }
