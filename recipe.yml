@@ -1,5 +1,5 @@
-name: 'Admin Experience'
-description: "Drupal recipe to install the Gin admin theme and configure it as the site's admin theme."
+name: 'Admin Suite'
+description: "Sets up admin themes, modules, and configuration for an improved Drupal administrative experience."
 type: 'Site'
 
 install:

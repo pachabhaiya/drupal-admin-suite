@@ -1,21 +1,21 @@
-# Drupal Recipe - Admin Experience
+# Drupal Recipe - Admin Suite
 
 ## Add repository
 
 ```
-ddev composer config repo.admin_experience vcs https://github.com/pachabhaiya/drupal-admin-experience.git
+ddev composer config repo.admin_suite vcs https://github.com/pachabhaiya/drupal-admin-suite.git
 ```
 
 ## Require recipe
 
 ```
-ddev composer require pachabhaiya/admin_experience:dev-master
+ddev composer require pachabhaiya/admin_suite:dev-master
 ```
 
 ## Apply recipe
 
 ```
-ddev drush recipe ../recipes/admin_experience
+ddev drush recipe ../recipes/admin_suite
 ```
 
 ## Known issues
