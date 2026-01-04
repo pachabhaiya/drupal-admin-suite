@@ -1,6 +1,6 @@
 name: 'Admin Suite'
 description: "Sets up admin themes, modules, and configuration for an improved Drupal administrative experience."
-type: 'Site'
+type: 'drupal-recipe'
 
 install:
   - contextual
