@@ -6,7 +6,7 @@ dependencies:
     module:
       - navigation
 _core:
-  default_config_hash: nqVwm91Uyib_rvFaNPF1MdYqHlmZ38w5rsOVVy4uWDw
+  default_config_hash: PFE4Cu2tkNybByzGLU80UJCs08mVkmFpsQj2MWbymo0
 id: content
 label: Content
 description: 'Content task links'

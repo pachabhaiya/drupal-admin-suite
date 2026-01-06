@@ -1,0 +1,9 @@
+uuid: 3435042a-d955-430e-95dc-d0fb0dabd69b
+langcode: en
+status: true
+dependencies: {  }
+id: default
+label: 'Default dashboard'
+description: ''
+layout: {  }
+weight: 0

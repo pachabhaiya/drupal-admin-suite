@@ -5,7 +5,7 @@ dependencies:
   theme:
     - gin
 _core:
-  default_config_hash: BCWhood0xXFQYqxFgL1spXdb9KeIuXH1YvTdjIEedDg
+  default_config_hash: BPb4EDDFnzTSe6TP9_51JcdP1guoh9ar2pETBu48IRo
 id: gin_secondary_local_tasks
 theme: gin
 region: pre_content
