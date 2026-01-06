@@ -44,13 +44,14 @@ config:
           provider: core
       setRegion: header
       setStatus: true
+    block.block.gin_primary_local_tasks:
+      setRegion: header
+      setStatus: true
     block.block.gin_admin:
       setStatus: false
     block.block.gin_branding:
       setStatus: false
     block.block.gin_local_tasks:
-      setStatus: false
-    block.block.gin_primary_local_tasks:
       setStatus: false
     block.block.gin_tools:
       setStatus: false
