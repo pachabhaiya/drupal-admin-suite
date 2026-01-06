@@ -12,6 +12,7 @@ install:
   - gin_toolbar
   - navigation
   - navigation_extra_tools
+  - dashboard
 
 config:
   strict: false
@@ -21,14 +22,14 @@ config:
       - block.block.gin_secondary_local_tasks
       - block.block.gin_content
       - block.block.gin_local_actions
-      - block.block.gin_local_tasks
       - block.block.gin_messages
       - block.block.gin_page_title
       - block.block.gin_primary_local_tasks
-      - gin.settings
+    navigation:
       - navigation.block_layout
       - navigation.settings
       - system.menu.content
+      - system.menu.navigation-user-links
   actions:
     system.theme:
       simpleConfigUpdate:
